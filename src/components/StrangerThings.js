@@ -121,6 +121,7 @@ class StrangerThings extends React.Component {
               {' '}
               Mudar de Realidade
             </button>
+            <p>teste</p>
           </div>
 
           <div>
