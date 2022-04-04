@@ -21,8 +21,6 @@ const upsideDownConfig = {
 const charactersService = new CharactersService(strangerThingsConfig);
 const charactersUpsideDownService = new CharactersService(upsideDownConfig);
 
-const environment = `em ${process.env.ENVIRONMENT}`;
-
 class StrangerThings extends React.Component {
   constructor(props) {
     super(props);
@@ -150,7 +148,7 @@ class StrangerThings extends React.Component {
           </div>
           <div>
             <h6>
-              { environment }
+              em desenvolvimento
             </h6>
           </div>
         </div>
